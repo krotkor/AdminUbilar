@@ -412,6 +412,7 @@ self.C3_JsPropNameTable = [
 	{М5МассивПожелания: 0},
 	{JSON: 0},
 	{М27ТЗагрузка2: 0},
+	{М26Баллы: 0},
 	{М3ИмяИгрока: 0},
 	{ЗарабатываемБаллы: 0},
 	{М10ПервоеВпечатление: 0},
@@ -776,5 +777,6 @@ self.InstanceType = {
 	М5МассивВпечатления: class extends self.IArrayInstance {},
 	М5МассивПожелания: class extends self.IArrayInstance {},
 	JSON: class extends self.IJSONInstance {},
-	М27ТЗагрузка2: class extends self.ITextInstance {}
+	М27ТЗагрузка2: class extends self.ITextInstance {},
+	М26Баллы: class extends self.ITextInstance {}
 }
